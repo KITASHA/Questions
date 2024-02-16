@@ -1,0 +1,32 @@
+header{
+  width: 100vw;
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #1c3667;
+}
+
+.rogo{
+  font-family: "Roboto", sans-serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 100;
+  letter-spacing: 1.8px;
+  margin: 20px;
+  color: #ffffff;
+}
+
+.questions_btn{
+  width: 80px;
+  height: 32px;
+  text-align: center;
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 16px 20px 16px 0;
+  background-color: #ffffff;
+}
+
+}

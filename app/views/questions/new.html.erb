@@ -1,0 +1,15 @@
+<h1>質問フォーム</h1>
+<%= form_with url: "/questions", method: :post, local: true do |form| %>
+  <div>
+  <%= form.text_field :title, placeholder:"タイトル" %>
+  </div>
+  <div>
+  <%= form.text_area :content, placeholder:"質問を入力してください"%>
+  </div>
+  <div>
+  <%= form.text_field :name, placeholder:"名前"%>
+  </div>
+  <div>
+  <%= form.submit '投稿する' %>
+  </div>
+<% end %>

@@ -1,0 +1,17 @@
+<div class="index_main">
+  <div class=questions>
+  <% @questions.each do |question| %>
+    <div class=count>
+    </div>
+    <div class="questions">
+      <div class="question-tiele">
+        <div>タイトル：<%= question.title %></div>
+        <div><%= question.name %><div>
+      </div>
+      <div class="question-content">
+        内容：<%= question.content %>
+      </div>
+ 
+    </div>
+<% end %>
+
